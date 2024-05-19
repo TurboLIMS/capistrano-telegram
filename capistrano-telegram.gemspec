@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name = "capistrano-telegram"
-  spec.version = '1.0.3'
+  spec.version = '1.0.4'
   spec.authors = ["Mattia Malonni"]
   spec.email = ["mattia.malonni@gmail.com"]
   spec.summary = %q{Notify Capistrano deployment to Telegram.}
