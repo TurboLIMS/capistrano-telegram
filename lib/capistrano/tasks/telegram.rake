@@ -34,7 +34,7 @@ namespace :telegram do
   end
 end
 
-before 'deploy:updating',           'telegram:deploy:updating'
+before 'deploy:starting',           'telegram:deploy:updating'
 before 'deploy:reverting',          'telegram:deploy:reverting'
 after  'deploy:finishing',          'telegram:deploy:updated'
 after  'deploy:finishing_rollback', 'telegram:deploy:reverted'
